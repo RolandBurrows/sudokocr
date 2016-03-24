@@ -1,11 +1,20 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    call-me (0.0.2.3)
+      refining
     codeclimate-test-reporter (0.5.0)
       simplecov (>= 0.7.1, < 1.0.0)
     diff-lcs (1.2.5)
     docile (1.1.5)
+    ffi (1.9.10-x64-mingw32)
+    ffi-extra (0.1.0)
+      ffi
+    ffi-inline (0.0.4.3)
+      ffi (>= 0.4.0)
+    iso-639 (0.2.5)
     json (1.8.3)
+    refining (0.0.5.5)
     rspec (3.4.0)
       rspec-core (~> 3.4.0)
       rspec-expectations (~> 3.4.0)
@@ -24,6 +33,11 @@ GEM
       json (~> 1.8)
       simplecov-html (~> 0.10.0)
     simplecov-html (0.10.0)
+    tesseract-ocr (0.1.8)
+      call-me
+      ffi-extra
+      ffi-inline
+      iso-639
 
 PLATFORMS
   x64-mingw32
@@ -31,6 +45,7 @@ PLATFORMS
 DEPENDENCIES
   codeclimate-test-reporter
   rspec
+  tesseract-ocr
 
 BUNDLED WITH
    1.11.2
