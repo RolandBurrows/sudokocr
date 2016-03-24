@@ -15,4 +15,4 @@ def clean(text)
   text.split(/\n/).compact.select { |v| v.size > 0 }
 end
 
-puts clean(e.text_for(ARGV.first))
+puts clean(engine.text_for(ARGV.first))

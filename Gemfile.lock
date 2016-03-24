@@ -7,6 +7,7 @@ GEM
       simplecov (>= 0.7.1, < 1.0.0)
     diff-lcs (1.2.5)
     docile (1.1.5)
+    ffi (1.9.10)
     ffi (1.9.10-x64-mingw32)
     ffi-extra (0.1.0)
       ffi
@@ -40,6 +41,7 @@ GEM
       iso-639
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
