@@ -32,14 +32,14 @@ If the OCR's confidence is higher than the allowed threshold, the puzzle data wi
 
 #### Application Milestones
 Execution:
-[X] Set up Tesseract as OCR engine
-[X] Specs!
+- [X] Set up Tesseract as OCR engine
+- [X] Specs!
 
 Input:
-[X] ARGV as part of main ruby script
+- [X] ARGV as part of main ruby script
 
 Implementation:
-[ ] Gem
+- [ ] Gem
 
 Stretch Goals:
 * Coming Soon
