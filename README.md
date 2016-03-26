@@ -1,7 +1,7 @@
 ## sudokocr
 Ruby optical character recognition Sudoku puzzle hyper-extractor
 
-
+[![Build Status](https://semaphoreci.com/api/v1/rolandburrows/sudokocr/branches/master/shields_badge.svg)](https://semaphoreci.com/rolandburrows/sudokocr)
 
 #### The Goal
 * Extracts the [Sudoku](https://en.wikipedia.org/wiki/Sudoku) puzzle data from a given image file.
