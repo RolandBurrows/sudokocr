@@ -3,10 +3,11 @@
 
 Dir["#{File.dirname(__FILE__)}/app/**/*.rb"].each { |f| require(f) }
 
-engine = Engine.new
+# Gather input
+input_image = ARGV[0] 
 
-def clean(text)
-  text.split(/\n/).compact.select { |v| v.size > 0 }
-end
+# Spin up the tesseract OCR
+engine = Engine.new(filter=true)
 
-puts clean(engine.extract_text(ARGV.first))
+# Display results
+puts engine.extract_text(input_image)
