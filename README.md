@@ -7,7 +7,14 @@ Ruby optical character recognition Sudoku puzzle hyper-extractor
 * Extracts the [Sudoku](https://en.wikipedia.org/wiki/Sudoku) puzzle data from a given image file.
 
 #### Execution
-* Coming Soon
+To read an image:
+```
+$ ruby sudokocr.rb <path_to_image_file>
+```
+To run the specs:
+```
+$ rspec
+```
 
 #### Results
 If the OCR's confidence is higher than the allowed threshold, the puzzle data will be returned on separate lines:
