@@ -43,3 +43,9 @@ Implementation:
 
 Stretch Goals:
 * Coming Soon
+
+#### Citations
+* [Ruby-based OCR on OSX in less than a minute](http://andredieb.com/ruby-tesseract-ocr.html)
+* [OCR using Tesseract on Ubuntu 14.04](http://hanzratech.in/2015/01/16/ocr-using-tesseract-on-ubuntu-14-04.html)
+* [OCR Tesseract – Text Recognition in Ubuntu 14.04](https://ubuntu.flowconsult.at/linux/ocr-tesseract-text-recognition-ubuntu-14-04/)
+* [Compiling Tesseract-ocr](https://github.com/tesseract-ocr/tesseract/wiki/Compiling)
