@@ -4,12 +4,12 @@
 Dir["#{File.dirname(__FILE__)}/app/**/*.rb"].each { |f| require(f) }
 
 # Gather input
-input_image = ARGV[0] 
+input_image = ARGV[0]
 
 class Sudokocr
   # Spin up the tesseract OCR
   def initialize
-    @engine = Engine.new(filter=true)
+    @engine = Engine.new("filter_the_data")
   end
 
   def extract_text(image)
