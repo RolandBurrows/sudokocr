@@ -3,7 +3,7 @@ require 'spec_helper'
 describe 'Tesseract Engine' do
 
   before :each do
-    @image = File.open("./samples/numbers.png", "r")
+    @image = File.open("./sample_images/analog/numbers.png", "r")
   end
 
   it "returns raw OCR data from an image" do
